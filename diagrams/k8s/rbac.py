@@ -2,7 +2,6 @@
 
 from . import _K8S
 
-
 class _Rbac(_K8S):
     _type = "rbac"
     _icon_dir = "resources/k8s/rbac"
@@ -10,31 +9,18 @@ class _Rbac(_K8S):
 
 class CRole(_Rbac):
     _icon = "c-role.png"
-
-
 class CRB(_Rbac):
     _icon = "crb.png"
-
-
 class Group(_Rbac):
     _icon = "group.png"
-
-
 class RB(_Rbac):
     _icon = "rb.png"
-
-
 class Role(_Rbac):
     _icon = "role.png"
-
-
 class SA(_Rbac):
     _icon = "sa.png"
-
-
 class User(_Rbac):
     _icon = "user.png"
-
 
 # Aliases
 

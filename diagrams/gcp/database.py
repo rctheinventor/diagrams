@@ -2,7 +2,6 @@
 
 from . import _GCP
 
-
 class _Database(_GCP):
     _type = "database"
     _icon_dir = "resources/gcp/database"
@@ -10,27 +9,16 @@ class _Database(_GCP):
 
 class Bigtable(_Database):
     _icon = "bigtable.png"
-
-
 class Datastore(_Database):
     _icon = "datastore.png"
-
-
 class Firestore(_Database):
     _icon = "firestore.png"
-
-
 class Memorystore(_Database):
     _icon = "memorystore.png"
-
-
 class Spanner(_Database):
     _icon = "spanner.png"
-
-
 class SQL(_Database):
     _icon = "sql.png"
-
 
 # Aliases
 

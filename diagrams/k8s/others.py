@@ -2,7 +2,6 @@
 
 from . import _K8S
 
-
 class _Others(_K8S):
     _type = "others"
     _icon_dir = "resources/k8s/others"
@@ -10,10 +9,7 @@ class _Others(_K8S):
 
 class CRD(_Others):
     _icon = "crd.png"
-
-
 class PSP(_Others):
     _icon = "psp.png"
-
 
 # Aliases

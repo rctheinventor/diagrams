@@ -2,7 +2,6 @@
 
 from . import _OnPrem
 
-
 class _Monitoring(_OnPrem):
     _type = "monitoring"
     _icon_dir = "resources/onprem/monitoring"
@@ -10,22 +9,13 @@ class _Monitoring(_OnPrem):
 
 class Datadog(_Monitoring):
     _icon = "datadog.png"
-
-
 class Grafana(_Monitoring):
     _icon = "grafana.png"
-
-
 class Kibana(_Monitoring):
     _icon = "kibana.png"
-
-
 class Prometheus(_Monitoring):
     _icon = "prometheus.png"
-
-
 class Splunk(_Monitoring):
     _icon = "splunk.png"
-
 
 # Aliases

@@ -2,7 +2,6 @@
 
 from . import _GCP
 
-
 class _Security(_GCP):
     _type = "security"
     _icon_dir = "resources/gcp/security"
@@ -10,23 +9,14 @@ class _Security(_GCP):
 
 class Iam(_Security):
     _icon = "iam.png"
-
-
 class KeyManagementService(_Security):
     _icon = "key-management-service.png"
-
-
 class ResourceManager(_Security):
     _icon = "resource-manager.png"
-
-
 class SecurityCommandCenter(_Security):
     _icon = "security-command-center.png"
-
-
 class SecurityScanner(_Security):
     _icon = "security-scanner.png"
-
 
 # Aliases
 

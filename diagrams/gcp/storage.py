@@ -2,7 +2,6 @@
 
 from . import _GCP
 
-
 class _Storage(_GCP):
     _type = "storage"
     _icon_dir = "resources/gcp/storage"
@@ -10,15 +9,10 @@ class _Storage(_GCP):
 
 class Filestore(_Storage):
     _icon = "filestore.png"
-
-
 class PersistentDisk(_Storage):
     _icon = "persistent-disk.png"
-
-
 class Storage(_Storage):
     _icon = "storage.png"
-
 
 # Aliases
 

@@ -2,7 +2,6 @@
 
 from . import _OCI
 
-
 class _Connectivity(_OCI):
     _type = "connectivity"
     _icon_dir = "resources/oci/connectivity"
@@ -10,22 +9,13 @@ class _Connectivity(_OCI):
 
 class Backbone(_Connectivity):
     _icon = "backbone.png"
-
-
 class Customerdatacenter(_Connectivity):
     _icon = "customerdatacenter.png"
-
-
 class Customerpremisesequip(_Connectivity):
     _icon = "customerpremisesequip.png"
-
-
 class Fastconnect(_Connectivity):
     _icon = "fastconnect.png"
-
-
 class Vpn(_Connectivity):
     _icon = "vpn.png"
-
 
 # Aliases

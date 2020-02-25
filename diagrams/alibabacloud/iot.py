@@ -2,7 +2,6 @@
 
 from . import _AlibabaCloud
 
-
 class _Iot(_AlibabaCloud):
     _type = "iot"
     _icon_dir = "resources/alibabacloud/iot"
@@ -10,18 +9,11 @@ class _Iot(_AlibabaCloud):
 
 class IotInternetDeviceId(_Iot):
     _icon = "iot-internet-device-id.png"
-
-
 class IotLinkWan(_Iot):
     _icon = "iot-link-wan.png"
-
-
 class IotMobileConnectionPackage(_Iot):
     _icon = "iot-mobile-connection-package.png"
-
-
 class IotPlatform(_Iot):
     _icon = "iot-platform.png"
-
 
 # Aliases

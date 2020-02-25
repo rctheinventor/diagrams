@@ -2,7 +2,6 @@
 
 from . import _K8S
 
-
 class _Storage(_K8S):
     _type = "storage"
     _icon_dir = "resources/k8s/storage"
@@ -10,19 +9,12 @@ class _Storage(_K8S):
 
 class PV(_Storage):
     _icon = "pv.png"
-
-
 class PVC(_Storage):
     _icon = "pvc.png"
-
-
 class SC(_Storage):
     _icon = "sc.png"
-
-
 class Vol(_Storage):
     _icon = "vol.png"
-
 
 # Aliases
 

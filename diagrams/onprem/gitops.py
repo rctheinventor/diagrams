@@ -2,7 +2,6 @@
 
 from . import _OnPrem
 
-
 class _Gitops(_OnPrem):
     _type = "gitops"
     _icon_dir = "resources/onprem/gitops"
@@ -10,7 +9,6 @@ class _Gitops(_OnPrem):
 
 class Argocd(_Gitops):
     _icon = "argocd.png"
-
 
 # Aliases
 

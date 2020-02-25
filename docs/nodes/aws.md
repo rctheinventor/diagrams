@@ -128,6 +128,12 @@ Node classes list of aws provider.
 - **diagrams.aws.compute.ThinkboxXmesh**
 - **diagrams.aws.compute.VmwareCloudOnAWS**
 
+## aws.accounts
+
+- **diagrams.aws.accounts.Account**
+- **diagrams.aws.accounts.OrganizationalUnit**
+- **diagrams.aws.accounts.Organizations**
+
 ## aws.devtools
 
 - **diagrams.aws.devtools.CloudDevelopmentKit**

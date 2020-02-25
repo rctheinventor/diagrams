@@ -2,7 +2,6 @@
 
 from . import _AlibabaCloud
 
-
 class _Web(_AlibabaCloud):
     _type = "web"
     _icon_dir = "resources/alibabacloud/web"
@@ -10,10 +9,7 @@ class _Web(_AlibabaCloud):
 
 class Dns(_Web):
     _icon = "dns.png"
-
-
 class Domain(_Web):
     _icon = "domain.png"
-
 
 # Aliases

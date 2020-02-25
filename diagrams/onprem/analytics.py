@@ -2,7 +2,6 @@
 
 from . import _OnPrem
 
-
 class _Analytics(_OnPrem):
     _type = "analytics"
     _icon_dir = "resources/onprem/analytics"
@@ -10,22 +9,13 @@ class _Analytics(_OnPrem):
 
 class Flink(_Analytics):
     _icon = "flink.png"
-
-
 class Hadoop(_Analytics):
     _icon = "hadoop.png"
-
-
 class Hive(_Analytics):
     _icon = "hive.png"
-
-
 class Spark(_Analytics):
     _icon = "spark.png"
-
-
 class Storm(_Analytics):
     _icon = "storm.png"
-
 
 # Aliases

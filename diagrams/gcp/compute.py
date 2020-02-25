@@ -2,7 +2,6 @@
 
 from . import _GCP
 
-
 class _Compute(_GCP):
     _type = "compute"
     _icon_dir = "resources/gcp/compute"
@@ -10,35 +9,20 @@ class _Compute(_GCP):
 
 class AppEngine(_Compute):
     _icon = "app-engine.png"
-
-
 class ComputeEngine(_Compute):
     _icon = "compute-engine.png"
-
-
 class ContainerOptimizedOS(_Compute):
     _icon = "container-optimized-os.png"
-
-
 class Functions(_Compute):
     _icon = "functions.png"
-
-
 class GKEOnPrem(_Compute):
     _icon = "gke-on-prem.png"
-
-
 class GPU(_Compute):
     _icon = "gpu.png"
-
-
 class KubernetesEngine(_Compute):
     _icon = "kubernetes-engine.png"
-
-
 class Run(_Compute):
     _icon = "run.png"
-
 
 # Aliases
 

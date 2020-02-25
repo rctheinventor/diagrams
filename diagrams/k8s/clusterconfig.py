@@ -2,7 +2,6 @@
 
 from . import _K8S
 
-
 class _Clusterconfig(_K8S):
     _type = "clusterconfig"
     _icon_dir = "resources/k8s/clusterconfig"
@@ -10,15 +9,10 @@ class _Clusterconfig(_K8S):
 
 class HPA(_Clusterconfig):
     _icon = "hpa.png"
-
-
 class Limits(_Clusterconfig):
     _icon = "limits.png"
-
-
 class Quota(_Clusterconfig):
     _icon = "quota.png"
-
 
 # Aliases
 

@@ -2,7 +2,6 @@
 
 from . import _OnPrem
 
-
 class _Queue(_OnPrem):
     _type = "queue"
     _icon_dir = "resources/onprem/queue"
@@ -10,19 +9,12 @@ class _Queue(_OnPrem):
 
 class Activemq(_Queue):
     _icon = "activemq.png"
-
-
 class Kafka(_Queue):
     _icon = "kafka.png"
-
-
 class Rabbitmq(_Queue):
     _icon = "rabbitmq.png"
-
-
 class Zeromq(_Queue):
     _icon = "zeromq.png"
-
 
 # Aliases
 

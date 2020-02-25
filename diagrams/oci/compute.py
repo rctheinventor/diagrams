@@ -2,7 +2,6 @@
 
 from . import _OCI
 
-
 class _Compute(_OCI):
     _type = "compute"
     _icon_dir = "resources/oci/compute"
@@ -10,15 +9,10 @@ class _Compute(_OCI):
 
 class Bm(_Compute):
     _icon = "bm.png"
-
-
 class Container(_Compute):
     _icon = "container.png"
-
-
 class Vm(_Compute):
     _icon = "vm.png"
-
 
 # Aliases
 

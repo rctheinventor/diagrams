@@ -2,7 +2,6 @@
 
 from . import _AlibabaCloud
 
-
 class _Analytics(_AlibabaCloud):
     _type = "analytics"
     _icon_dir = "resources/alibabacloud/analytics"
@@ -10,22 +9,13 @@ class _Analytics(_AlibabaCloud):
 
 class AnalyticDb(_Analytics):
     _icon = "analytic-db.png"
-
-
 class ClickHouse(_Analytics):
     _icon = "click-house.png"
-
-
 class DataLakeAnalytics(_Analytics):
     _icon = "data-lake-analytics.png"
-
-
 class ElaticMapReduce(_Analytics):
     _icon = "elatic-map-reduce.png"
-
-
 class OpenSearch(_Analytics):
     _icon = "open-search.png"
-
 
 # Aliases

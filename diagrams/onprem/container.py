@@ -2,7 +2,6 @@
 
 from . import _OnPrem
 
-
 class _Container(_OnPrem):
     _type = "container"
     _icon_dir = "resources/onprem/container"
@@ -10,11 +9,8 @@ class _Container(_OnPrem):
 
 class Docker(_Container):
     _icon = "docker.png"
-
-
 class Rkt(_Container):
     _icon = "rkt.png"
-
 
 # Aliases
 

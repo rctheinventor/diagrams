@@ -2,7 +2,6 @@
 
 from . import _K8S
 
-
 class _Group(_K8S):
     _type = "group"
     _icon_dir = "resources/k8s/group"
@@ -10,7 +9,6 @@ class _Group(_K8S):
 
 class NS(_Group):
     _icon = "ns.png"
-
 
 # Aliases
 
