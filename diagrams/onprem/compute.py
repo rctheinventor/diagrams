@@ -2,6 +2,7 @@
 
 from . import _OnPrem
 
+
 class _Compute(_OnPrem):
     _type = "compute"
     _icon_dir = "resources/onprem/compute"
@@ -9,5 +10,6 @@ class _Compute(_OnPrem):
 
 class Server(_Compute):
     _icon = "server.png"
+
 
 # Aliases

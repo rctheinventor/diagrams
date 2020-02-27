@@ -2,6 +2,7 @@
 
 from . import _OnPrem
 
+
 class _Workflow(_OnPrem):
     _type = "workflow"
     _icon_dir = "resources/onprem/workflow"
@@ -9,10 +10,15 @@ class _Workflow(_OnPrem):
 
 class Airflow(_Workflow):
     _icon = "airflow.png"
+
+
 class Kubeflow(_Workflow):
     _icon = "kubeflow.png"
+
+
 class Nifi(_Workflow):
     _icon = "nifi.png"
+
 
 # Aliases
 

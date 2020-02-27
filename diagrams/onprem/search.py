@@ -2,6 +2,7 @@
 
 from . import _OnPrem
 
+
 class _Search(_OnPrem):
     _type = "search"
     _icon_dir = "resources/onprem/search"
@@ -9,7 +10,10 @@ class _Search(_OnPrem):
 
 class Elasticsearch(_Search):
     _icon = "elasticsearch.png"
+
+
 class Solr(_Search):
     _icon = "solr.png"
+
 
 # Aliases

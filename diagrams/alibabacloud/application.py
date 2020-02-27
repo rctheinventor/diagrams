@@ -2,6 +2,7 @@
 
 from . import _AlibabaCloud
 
+
 class _Application(_AlibabaCloud):
     _type = "application"
     _icon_dir = "resources/alibabacloud/application"
@@ -9,32 +10,59 @@ class _Application(_AlibabaCloud):
 
 class ApiGateway(_Application):
     _icon = "api-gateway.png"
+
+
 class BeeBot(_Application):
     _icon = "bee-bot.png"
+
+
 class BlockchainAsAService(_Application):
     _icon = "blockchain-as-a-service.png"
+
+
 class CloudCallCenter(_Application):
     _icon = "cloud-call-center.png"
+
+
 class CodePipeline(_Application):
     _icon = "code-pipeline.png"
+
+
 class DirectMail(_Application):
     _icon = "direct-mail.png"
+
+
 class LogService(_Application):
     _icon = "log-service.png"
+
+
 class MessageNotificationService(_Application):
     _icon = "message-notification-service.png"
+
+
 class NodeJsPerformancePlatform(_Application):
     _icon = "node-js-performance-platform.png"
+
+
 class OpenSearch(_Application):
     _icon = "open-search.png"
+
+
 class PerformanceTestingService(_Application):
     _icon = "performance-testing-service.png"
+
+
 class RdCloud(_Application):
     _icon = "rd-cloud.png"
+
+
 class SmartConversationAnalysis(_Application):
     _icon = "smart-conversation-analysis.png"
+
+
 class Yida(_Application):
     _icon = "yida.png"
+
 
 # Aliases
 

@@ -2,6 +2,7 @@
 
 from . import _AWS
 
+
 class _Security(_AWS):
     _type = "security"
     _icon_dir = "resources/aws/security"
@@ -9,42 +10,79 @@ class _Security(_AWS):
 
 class Artifact(_Security):
     _icon = "artifact.png"
+
+
 class CertificateManager(_Security):
     _icon = "certificate-manager.png"
+
+
 class CloudDirectory(_Security):
     _icon = "cloud-directory.png"
+
+
 class Cloudhsm(_Security):
     _icon = "cloudhsm.png"
+
+
 class Cognito(_Security):
     _icon = "cognito.png"
+
+
 class DirectoryService(_Security):
     _icon = "directory-service.png"
+
+
 class FirewallManager(_Security):
     _icon = "firewall-manager.png"
+
+
 class Guardduty(_Security):
     _icon = "guardduty.png"
+
+
 class IdentityAndAccessManagementIam(_Security):
     _icon = "identity-and-access-management-iam.png"
+
+
 class Inspector(_Security):
     _icon = "inspector.png"
+
+
 class KeyManagementService(_Security):
     _icon = "key-management-service.png"
+
+
 class Macie(_Security):
     _icon = "macie.png"
+
+
 class ResourceAccessManager(_Security):
     _icon = "resource-access-manager.png"
+
+
 class SecretsManager(_Security):
     _icon = "secrets-manager.png"
+
+
 class SecurityHub(_Security):
     _icon = "security-hub.png"
+
+
 class SecurityIdentityAndCompliance(_Security):
     _icon = "security-identity-and-compliance.png"
+
+
 class Shield(_Security):
     _icon = "shield.png"
+
+
 class SingleSignOn(_Security):
     _icon = "single-sign-on.png"
+
+
 class WAF(_Security):
     _icon = "waf.png"
+
 
 # Aliases
 

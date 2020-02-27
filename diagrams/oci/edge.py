@@ -2,6 +2,7 @@
 
 from . import _OCI
 
+
 class _Edge(_OCI):
     _type = "edge"
     _icon_dir = "resources/oci/edge"
@@ -9,11 +10,18 @@ class _Edge(_OCI):
 
 class Cdn(_Edge):
     _icon = "cdn.png"
+
+
 class Dns(_Edge):
     _icon = "dns.png"
+
+
 class Emaildelivery(_Edge):
     _icon = "emaildelivery.png"
+
+
 class Waf(_Edge):
     _icon = "waf.png"
+
 
 # Aliases

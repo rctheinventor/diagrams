@@ -2,6 +2,7 @@
 
 from . import _K8S
 
+
 class _Podconfig(_K8S):
     _type = "podconfig"
     _icon_dir = "resources/k8s/podconfig"
@@ -9,8 +10,11 @@ class _Podconfig(_K8S):
 
 class CM(_Podconfig):
     _icon = "cm.png"
+
+
 class Secret(_Podconfig):
     _icon = "secret.png"
+
 
 # Aliases
 

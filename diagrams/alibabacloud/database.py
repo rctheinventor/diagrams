@@ -2,6 +2,7 @@
 
 from . import _AlibabaCloud
 
+
 class _Database(_AlibabaCloud):
     _type = "database"
     _icon_dir = "resources/alibabacloud/database"
@@ -9,38 +10,71 @@ class _Database(_AlibabaCloud):
 
 class ApsaradbCassandra(_Database):
     _icon = "apsaradb-cassandra.png"
+
+
 class ApsaradbHbase(_Database):
     _icon = "apsaradb-hbase.png"
+
+
 class ApsaradbMemcache(_Database):
     _icon = "apsaradb-memcache.png"
+
+
 class ApsaradbMongodb(_Database):
     _icon = "apsaradb-mongodb.png"
+
+
 class ApsaradbOceanbase(_Database):
     _icon = "apsaradb-oceanbase.png"
+
+
 class ApsaradbPolardb(_Database):
     _icon = "apsaradb-polardb.png"
+
+
 class ApsaradbPostgresql(_Database):
     _icon = "apsaradb-postgresql.png"
+
+
 class ApsaradbPpas(_Database):
     _icon = "apsaradb-ppas.png"
+
+
 class ApsaradbRedis(_Database):
     _icon = "apsaradb-redis.png"
+
+
 class ApsaradbSqlserver(_Database):
     _icon = "apsaradb-sqlserver.png"
+
+
 class DataManagementService(_Database):
     _icon = "data-management-service.png"
+
+
 class DataTransmissionService(_Database):
     _icon = "data-transmission-service.png"
+
+
 class DatabaseBackupService(_Database):
     _icon = "database-backup-service.png"
+
+
 class DisributeRelationalDatabaseService(_Database):
     _icon = "disribute-relational-database-service.png"
+
+
 class GraphDatabaseService(_Database):
     _icon = "graph-database-service.png"
+
+
 class HybriddbForMysql(_Database):
     _icon = "hybriddb-for-mysql.png"
+
+
 class RelationalDatabaseService(_Database):
     _icon = "relational-database-service.png"
+
 
 # Aliases
 

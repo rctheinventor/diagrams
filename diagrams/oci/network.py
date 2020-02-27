@@ -2,6 +2,7 @@
 
 from . import _OCI
 
+
 class _Network(_OCI):
     _type = "network"
     _icon_dir = "resources/oci/network"
@@ -9,19 +10,34 @@ class _Network(_OCI):
 
 class Drg(_Network):
     _icon = "drg.png"
+
+
 class Firewall(_Network):
     _icon = "firewall.png"
+
+
 class Internetgateway(_Network):
     _icon = "internetgateway.png"
+
+
 class Loadbalance(_Network):
     _icon = "loadbalance.png"
+
+
 class Routetable(_Network):
     _icon = "routetable.png"
+
+
 class Securitylists(_Network):
     _icon = "securitylists.png"
+
+
 class ServiceGateway(_Network):
     _icon = "service-gateway.png"
+
+
 class Vcloudnetwork(_Network):
     _icon = "vcloudnetwork.png"
+
 
 # Aliases

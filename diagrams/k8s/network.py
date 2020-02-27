@@ -2,6 +2,7 @@
 
 from . import _K8S
 
+
 class _Network(_K8S):
     _type = "network"
     _icon_dir = "resources/k8s/network"
@@ -9,12 +10,19 @@ class _Network(_K8S):
 
 class Ep(_Network):
     _icon = "ep.png"
+
+
 class Ing(_Network):
     _icon = "ing.png"
+
+
 class Netpol(_Network):
     _icon = "netpol.png"
+
+
 class SVC(_Network):
     _icon = "svc.png"
+
 
 # Aliases
 

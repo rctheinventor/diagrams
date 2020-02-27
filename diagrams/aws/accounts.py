@@ -2,6 +2,7 @@
 
 from . import _AWS
 
+
 class _Accounts(_AWS):
     _type = "accounts"
     _icon_dir = "resources/aws/accounts"
@@ -9,9 +10,14 @@ class _Accounts(_AWS):
 
 class Account(_Accounts):
     _icon = "account.png"
+
+
 class OrganizationalUnit(_Accounts):
     _icon = "organizational-unit.png"
+
+
 class Organizations(_Accounts):
     _icon = "organizations.png"
+
 
 # Aliases

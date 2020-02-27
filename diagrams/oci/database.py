@@ -2,6 +2,7 @@
 
 from . import _OCI
 
+
 class _Database(_OCI):
     _type = "database"
     _icon_dir = "resources/oci/database"
@@ -9,5 +10,6 @@ class _Database(_OCI):
 
 class Databaseservice(_Database):
     _icon = "databaseservice.png"
+
 
 # Aliases

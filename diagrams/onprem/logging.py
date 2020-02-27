@@ -2,6 +2,7 @@
 
 from . import _OnPrem
 
+
 class _Logging(_OnPrem):
     _type = "logging"
     _icon_dir = "resources/onprem/logging"
@@ -9,8 +10,11 @@ class _Logging(_OnPrem):
 
 class Fluentd(_Logging):
     _icon = "fluentd.png"
+
+
 class Logstash(_Logging):
     _icon = "logstash.png"
+
 
 # Aliases
 

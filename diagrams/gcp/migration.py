@@ -2,6 +2,7 @@
 
 from . import _GCP
 
+
 class _Migration(_GCP):
     _type = "migration"
     _icon_dir = "resources/gcp/migration"
@@ -9,5 +10,6 @@ class _Migration(_GCP):
 
 class TransferAppliance(_Migration):
     _icon = "transfer-appliance.png"
+
 
 # Aliases

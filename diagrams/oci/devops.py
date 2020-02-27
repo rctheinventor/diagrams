@@ -2,6 +2,7 @@
 
 from . import _OCI
 
+
 class _Devops(_OCI):
     _type = "devops"
     _icon_dir = "resources/oci/devops"
@@ -9,7 +10,10 @@ class _Devops(_OCI):
 
 class Apiservice(_Devops):
     _icon = "apiservice.png"
+
+
 class Resourcemgmt(_Devops):
     _icon = "resourcemgmt.png"
+
 
 # Aliases

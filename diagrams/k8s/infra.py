@@ -2,6 +2,7 @@
 
 from . import _K8S
 
+
 class _Infra(_K8S):
     _type = "infra"
     _icon_dir = "resources/k8s/infra"
@@ -9,9 +10,14 @@ class _Infra(_K8S):
 
 class ETCD(_Infra):
     _icon = "etcd.png"
+
+
 class Master(_Infra):
     _icon = "master.png"
+
+
 class Node(_Infra):
     _icon = "node.png"
+
 
 # Aliases

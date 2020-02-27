@@ -2,6 +2,7 @@
 
 from . import _AWS
 
+
 class _Network(_AWS):
     _type = "network"
     _icon_dir = "resources/aws/network"
@@ -9,32 +10,59 @@ class _Network(_AWS):
 
 class APIGateway(_Network):
     _icon = "api-gateway.png"
+
+
 class AppMesh(_Network):
     _icon = "app-mesh.png"
+
+
 class ClientVpn(_Network):
     _icon = "client-vpn.png"
+
+
 class CloudMap(_Network):
     _icon = "cloud-map.png"
+
+
 class Cloudfront(_Network):
     _icon = "cloudfront.png"
+
+
 class DirectConnect(_Network):
     _icon = "direct-connect.png"
+
+
 class ElasticLoadBalancing(_Network):
     _icon = "elastic-load-balancing.png"
+
+
 class GlobalAccelerator(_Network):
     _icon = "global-accelerator.png"
+
+
 class NetworkingAndContentDelivery(_Network):
     _icon = "networking-and-content-delivery.png"
+
+
 class Privatelink(_Network):
     _icon = "privatelink.png"
+
+
 class Route53(_Network):
     _icon = "route-53.png"
+
+
 class SiteToSiteVpn(_Network):
     _icon = "site-to-site-vpn.png"
+
+
 class TransitGateway(_Network):
     _icon = "transit-gateway.png"
+
+
 class VPC(_Network):
     _icon = "vpc.png"
+
 
 # Aliases
 

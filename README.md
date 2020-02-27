@@ -57,3 +57,8 @@ To contribute to diagram, check out [contribution guidelines](CONTRIBUTING.md).
 ## License
 
 [MIT](LICENSE)
+
+## Ryan Chase notes
+
+Using a conda environment, conda activate diagrams
+installing packages in that environment using pip
